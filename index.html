@@ -1,143 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <div class="d-flex header">
-        <div class="col-2 d-flex height">
-            <img class="col-1 mx-4" src="burger.svg"/>
-            <img class="col-4" src="logo.svg"/>
-        </div>
-        <div class="col-8 d-flex height">
-            <div class="ms-5 col-6 height d-flex p-2">
-                <div class="input-group">
-                    <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)" placeholder="Введите запрос">
-                    <span class="input-group-text">
-                        <img src="keyboard.png" style="width: 19px;">
-                    </span>
-                    <span class="input-group-text">
-                        <img src="search.svg" style="width: 19px;">
-                    </span>
-                </div>
-            </div>
-            <div class="mt-2 micro p-1">
-                <img src="micro.svg" style="width: 30px;">  
-            </div>
-        </div>
-        <div class="col-2 d-flex height align-items-center">
-            
-            <img src="video.svg" style="width: 30px;" class="mx-3">  
-            <img src="apps.svg" style="width: 30px;" class="mx-3">  
-            <img src="notificatin.svg" style="width: 30px;" class="mx-3">  
-            <img src="profile.png" style="width: 30px; height: 30px;" class="mx-3">  
-        </div>
+<div class="col-12">
+	<div class="col-6 d-flex">
+		<div class="col-2">
+		<img src="pslogo.png" class="w-50">
+		</div>	
+		<div class="col-2 pt-3">
+			<div class="dropdown">
+	  			<button class="btn bg-light-subtle text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+	   			Игры
+	  			</button>
+	  			<ul class="dropdown-menu">
+	   				<li><a class="dropdown-item" href="#">Minecraft</a></li>
+	    			<li><a class="dropdown-item" href="#">Roblox</a></li>
+	    			<li><a class="dropdown-item" href="#">God of War</a></li>
+	  			</ul>
+			</div>
+		</div>
+		<div class="col-2 pt-3">
+		<div class="dropdown">
+	  			<button class="btn bg-light-subtle  text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+	   			Оборудование
+	  			</button>
+	  			<ul class="dropdown-menu">
+	   				<li><a class="dropdown-item" href="#">Джойстики</a></li>
+	    			<li><a class="dropdown-item" href="#">Наушники</a></li>
+	    			<li><a class="dropdown-item" href="#">Аксессуары</a></li>
+	  			</ul>
+			</div>
+		</div>
+		<div class="col-2 pt-3">
+		<div class="dropdown">
+	  			<button class="btn bg-light-subtle text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+	   			Новости
+	  			</button>
+	  			<ul class="dropdown-menu">
+	   				<li><a class="dropdown-item" href="#">Центр конкурсов</a></li>
+	    			<li><a class="dropdown-item" href="#">Доступность</a></li>
+	    			<li><a class="dropdown-item" href="#">Конфиденциальность и безопасность</a></li>
+	  			</ul>
+			</div>
+		</div>
+		<div class="col-2 pt-3">
+		<div class="dropdown">
+	  			<button class="btn bg-light-subtle text-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+	   			Магазин
+	  			</button>
+	  			<ul class="dropdown-menu">
+	   				<li><a class="dropdown-item" href="#">Купить игры для PS5</a></li>
+	    			<li><a class="dropdown-item" href="#">Купить игры для PS4</a></li>
+	    			<li><a class="dropdown-item" href="#">Купить PlayStation Plus</a></li>
+	  			</ul>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="col-12" style="height: 795px">
+		<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+		  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="carousel_1.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="carousel_2.png" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="carousel_3.jpg" class="d-block w-100" alt="...">
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+</div>
+<div class="col-11 d-flex bg-dark pt-5 mx-auto" style="height: 600px">
+	<div class="col-3" style="height: 520px">
+		<img src="immortal.jpg" class="w-100">
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-light text-black mt-3 ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+		  Подробнее
+		</button>
 
+		<!-- Modal1 -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title fs-5" id="exampleModalLabel1">Immortals Fenyx Rising</h1>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        В начале игроки могут настроить пол, голос и внешний вид Феникса, используя кресло красоты Афродиты. В любой момент игры они могут вернуться туда, чтобы внести изменения. Действие игры разворачивается в большом открытом мире, состоящем из семи различных регионов, вдохновленных богами Древнегреческих мифов. Игрока сопровождает птица-компаньон по имени Фосфор, которая может определять интересующие места на карте. Феникс может быстро путешествовать по миру, взбираясь по скалам, ездить верхом, а также летать, используя крылья Дедала. Полный открытый мир будет доступен с самого начала игры. По мере того, как игроки исследуют мир, они будут сталкиваться с разломами, которые телепортируют их в Хранилища Тартара, которые представляют собой несколько платформерных испытаний, требующих от игроков использования как боевых способностей Феникса, так и способностей перемещения. Игроки также могут выполнять различные побочные задания и решать дополнительные головоломки.
 
-        <div class="mt-1 mb-2 ms-3 me-4 mx-5 my-1">
+				Мир Златого острова населен различными врагами, вдохновленными греческой мифологией, — от минотавров до циклопов. Есть два типа ближнего боя: легкие атаки мечом — быстрые, но слабые, а тяжелые атаки топором медленные, зато более мощные. Феникс также может использовать лук и стрелы, чтобы побеждать врагов. Игрокам необходимо управлять выносливостью Феникса во время боя, так как она будет тратится во время использования боевых приёмов. По мере прохождения игры, игрокам будут открываться могущественные божественные способности. Например, Феникс может разблокировать Гнев Ареса, группу копий, которые подбрасывают врагов в воздух. Доспехи и оружие также можно улучшить, собрав достаточно ресурсов для крафта.
+		      </div>
+		      <div class="modal-footer">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-3" style="height: 520px">
+		<img src="assassins.jpg" class="w-100">
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-light text-black mt-3 ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+		  Подробнее
+		</button>
 
-        </div>
+		<!-- Modal2 -->
+		<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title fs-5" id="exampleModalLabel2">Assassin’s Creed</h1>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        Assassin’s Creed — медиафраншиза французской компании Ubisoft, основанная на серии компьютерных игр.
 
-        <div class="col mx-auto">
+				Первая игра серии — Assassin’s Creed — вышла в 2007 году. Помимо основной линейки игр был выпущен ряд спин-оффов. Игры основной серии, вышедшие до Assassin’s Creed Origins, а также Assassin’s Creed Mirage, вышедшая после, относятся к жанру action-adventure; Assassin’s Creed Origins и последующие игры позиционируются разработчиками, как игры в жанре action RPG. Различные спин-оффы серии относятся к разным жанрам. Части франшизы неоднократно переиздавались на новых платформах.
 
-        </div>
+				Согласно отчёту, опубликованному Ubisoft в сентябре 2016 года, совокупные продажи игр серии Assassin’s Creed составили более 100 миллионов копий.
 
-    </div>
-    <div class="col bg-white" style="height: 1000px">
-        <div class="col-11 mx-auto bg-white d-flex" style="height: 1000px">
-            <div class="col-8 bg-white px-2" style="height: 1000px">
-                <div class="ratio ratio-16x9">
-                    <iframe width="560" height="325" src="https://www.youtube.com/embed/jyv8q9FTjrU?si=hiqiF3HlE_xQzgy_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="col-12 bg-white" style="height: 100px">
-                <h3>ЗАЧЕМ Рандомы ЭТО СДЕЛАЛИ? НЕНАВИЖУ... 😭 BRAWL STARS</h3>
-                <h3 class="text-secondary">28 167 просмотров  28 янв. 2025г.</h3>
-                </div>
-                <div class="d-flex border-top">
-                    <div class="col-2 bg-white" style="height: 150px">
-                    <img src="2.jpg" style="border-radius: 50px; margin-left: 50px;" class="w-50">
-                    </div>
-                    <div class="d-flex">
-                        <div class="col-10 bg-white" style="height: 150px">
-                            <h3 style="margin-left: 10px;">Robzi</h3>
-                            <h3 style="margin-left: 10px;" class=" text-secondary">5,74 млн подписчиков</h3>
-                        </div>
-                        <button  class="bg-dark text-light" style="height: 50px; border-radius: 50px">Подписаться</button>
-                    </div>
-                </div>
-                <h2>7 389 комментариев</h2>
-                <div class="d-flex">
-                    <img src="3.jpg" style="height: 50px; border-radius: 30px;">
-                    <form>
-                    <input type="" placeholder="Введите комментарий" class="border-end-0 border-top-0 border-start-0" style="margin-top: 10px; margin-left: 10px;">
-                    </form>
-                </div>
-                <div class="d-flex">
-                    <div class="col-1">
-                        <img src="4.jpg" style="height: 50px; border-radius: 30px; margin-top: 50px;">
-                    </div>
-                    <div class="col-3">
-                        <h4 style="margin-top: 50px; margin-left: 10px;">@Nastya <span style="font-weight: 100;" class="fs-6">4 года назад</span></h4>
-                        <p>Хороший монтаж! 😁😁😁😁</p>
-                    </div>        
-                </div>
-                <div class="d-flex">
-                    <div class="col-1">
-                        <img src="1.png" style="height: 50px; border-radius: 30px; margin-top: 50px;">
-                    </div>
-                    <div class="col-3">
-                        <h4 style="margin-top: 50px; margin-left: 10px;">@sakura_chyan <span style="font-weight: 100;" class="fs-6">4 года назад</span></h4>
-                        <p>Билеты…………
-                            Ящики……………………………………
-                        Помним
-                    Скорбим </p>
-                    </div>        
-                </div>
-                <div class="d-flex">
-                    <div class="col-1">
-                        <img src="6.jpg" style="height: 50px; border-radius: 30px; margin-top: 50px;">
-                    </div>
-                    <div class="col-3">
-                        <h4 style="margin-top: 50px; margin-left: 10px;">@luksygames <span style="font-weight: 100;" class="fs-6">4 года назад</span></h4>
-                        <p>КЛАССНЫЙ РОЛИК! Я ТОЖЕ СНИМАЮ БРАВЛ СТАРС!!</p>
-                    </div>        
-                </div>
-            </div>
-            <div class="col-4 bg-white" style="height: 1000px">
-                <div class="d-flex">
-                    <div class="mx-2 col-6 bg-white" style="height: 215px">
-                        <div class="ratio ratio-4x3">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/GBvNQqDteKo?si=lPmaqP8QYkSELneP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div> 
-                    <div class=" col-6 bg-white mx-2" style="height: 215px">
-                    <h5>ЗАШЕЛ В ИГРУ СПУСТЯ 7 ДНЕЙ! А ТУТ ТАКОЕ... BRAWL STARS</h5> 
-                        <div class="mx-2">
-                            <p class=" text-secondary">Robzi</p>
-                            <p class=" text-secondary">40 тыс. просмотров</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex">
-                    <div class="mt-3 mx-2 col-6 bg-white" style="height: 215px">
-                        <div class="ratio ratio-4x3">
-                     <iframe width="560" height="315" src="https://www.youtube.com/embed/6DsLtbKAwV0?si=xTl-HcaNpZQclag0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy=" strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    </div> 
-                    <div class=" col-6 bg-white mt-3 mx-2" style="height: 215px">
-                    <h5>ЧИТЕР777 ПРИГЛАСИЛ МЕНЯ В КОМАНДУ и ВЫПАЛО 999 ПРЕДМЕТОВ С ЯЩИКА...! BRAWL STARS</h5>
-                      <div>
-                        <p class=" text-secondary">Robzi</p>
-                        <p class=" text-secondary">7 101 689 просмотров  6 мар. 2020г. </p> 
-                      </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+				Ubisoft выделяет три периода в истории серии. Первый период включает в себя основные части серии, вышедшие до Assassin’s Creed Origins. Во второй период входят Assassin’s Creed Origins, Assassin’s Creed Odyssey, Assassin’s Creed Valhalla и Assassin’s Creed Mirage. С выходом Assassin’s Creed Shadows начнётся третий период.
+		      </div>
+		      <div class="modal-footer">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-3" style="height: 520px">
+		<img src="cod.jpg" class="w-100">
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-light text-black mt-3 ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+		  Подробнее
+		</button>
+
+		<!-- Modal3 -->
+		<div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title fs-5" id="exampleModalLabel">Call of Duty</h1>
+		        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+		        Игра представляет собой шутер от первого лица с двумя режимами — сетевая игра и королевская битва. В сетевой игре игроки могут играть в ранговые и неранговые матчи в мультиплеере. Неранговые матчи влияют на прогресс профиля, ранговые же определяют ранг игрока — всего рангов несколько, от «Новичка» до «Легендарного». В Call of Duty: Mobile присутствуют микротранзации, за которые можно получить персонажа из серии Call of Duty или раскраску для оружия. Ежемесячно в Call of Duty: Mobile добавляются новые сезоны с различными темами и новыми персонажами, оружием, способностями, перками и режимами игры. Так, в 2021 году в игре появилась возможность за Джона Рэмбо и Джона Макклейна, а в следующем — за рэпера Snoop Dogg, у которого имеется свой собственный пистолет-пулемёт из золота и бриллианта с уникальным эффектом смерти.
+
+				В сетевой игре также есть специальные и ограниченные по времени режимы, которые могут длиться от нескольких дней до целого сезона. К ним относятся «Один выстрел — один труп» (англ. One Shot — One Kill), «2 на 2» (англ. 2v2), «Только снайперы» (англ. Snipers Only) и многие другие.
+		      </div>
+		      <div class="modal-footer">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="col-3" style="height: 520px">
+		<img src="SM.jpg" class="w-100">
+		<!-- Button trigger modal -->
+		<button type="button" class="btn btn-light text-black mt-3 ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+		  Подробнее
+		</button>
+
+		<!-- Modal4 -->
+		<div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h1 class="modal-title fs-5" id="exampleModalLabel4">Spider-Man</h1>
+		        <button type="button" class="btn-close" data-bs-dismiss="9" aria-label="Close"></button>
+		      </div>
+		      <div class="modal-body">
+				Идея ввести в сюжет афроамериканского Человека-паука впервые появилась у создателей в 2008 году, за несколько недель до вступления в должность президента Соединённых Штатов Барака Обамы. Главный редактор Marvel Аксель Алонсо сказал: «Мы поняли, что стоим на пороге избрания первого афроамериканского президента в истории Америки, и мы знали, что это подходящее время пристальнее рассмотреть одного из наших главных персонажей». Шанс для нового Человека-паука предоставился с выходом сюжетной линии Ultimatum, после которой произошла частичная реструктуризация Ultimate-вселенной, но тогда эта идея была заброшена, так как история нового персонажа разработана не была. Позже, Брайан Майкл Бендис рассказал, что его снова посетили мысли о персонаже после появления темнокожего актёра Дональда Гловера в пижаме Человека-паука в американском телесериале «Сообщество», что стало ссылкой на неудачную попытку Гловера получить роль Питера Паркера на кастинге фильма «Новый Человек-паук».
+
+				Когда издательство приняло решение «убить» Питера Паркера в 2011 году в сюжетной линии «Death of Spider-Man», идея появления нового персонажа сформировалась в концепцию Майлза Моралеса. Деталями разработки занимался Бендис в сотрудничестве с художником Сарой Пичелли. В основной вселенной Marvel Питер Паркер по-прежнему жив и остаётся Человеком-пауком, а Моралес наденет костюм супергероя только в рамках альтернативной вселенной Ultimate Marvel. Персонаж Моралеса дебютировал в выпуске Ultimate Fallout #4 в августе 2011 года. Начиная с сентября он будет фигурировать в качестве одного из главных персонажей в возобновлённой серии Ultimate Comics: Spider-Man, авторами которой станут Бендис вместе с Сарой Пичелли. Пичелли также разработала дизайн нового костюма Человека-паука, который вместо красно-синего стал чёрным с красным логотипом в виде паука.
+		      </div>
+		      <div class="modal-footer">
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+</div>
+<div class="col-12" style="height: 800px; margin-top: 50px">
+	<p style="text-align: center;">Play has no limits</p>
+	<h1 style="text-align: center;">Представляем PlayStation</h1>
+	<h5 style="text-align: center;">Откройте для себя новые возможности, о которых вы даже не мечтали</h5>
+	<div class="col-8 mx-auto" style="height: 600px">
+		<div class="d-flex">
+			<div class="col-3" style="height: 500px">
+				<img src="3.webp" class="w-75" style="margin-left: 40px; margin-right: 40px;">
+				
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 40px; margin-top: 20px;">
+    			Посмотреть
+  				</button>
+			</p>
+			</div>
+			<div class="col-3" style="height: 500px">
+				<img src="2.webp" class="w-75" style="margin-left: 40px; margin-right: 40px;">
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 40px; margin-top: 20px;">
+    			Посмотреть
+  				</button>
+			</p>
+			</div>
+			<div class="col-3" style="height: 500px">
+				<img src="4.webp" class="w-75" style="margin-left: 40px; margin-right: 40px;">
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 40px; margin-top: 20px;">
+    			Посмотреть
+  				</button>
+			</p>
+			</div>
+			<div class="col-3" style="height: 500px">
+				<img src="2.jpg" class="w-75" style="margin-left: 40px; margin-right: 40px;">
+				<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample" style="margin-left: 40px; margin-top: 20px;">
+    			Посмотреть
+  				</button>
+			</p>
+			</div>
+	</div>
+	<div class="collapse" id="collapseExample">
+  		<div class="card card-body">
+    		<h3>Консоль PlayStation 5</h3>
+    		<p>Окунитесь в новое поколение невероятных игр PlayStation.</p>
+  		<button class="btn btn-primary col-3">Узнать больше</button>
+  		</div>
+	</div>
+	<div class="collapse" id="collapseExample2">
+  		<div class="card card-body">
+    		<h3>Беспроводной контроллер Dual Sense</h3>
+    		<p>Ощутите погружение в игру при помощи контроллера, предлагающего тактильную отдачу, адаптивные триггеры и встроеный микрофон.</p>
+  		<button class="btn btn-primary col-3">Узнать больше</button>
+  		</div>
+	</div>
+	<div class="collapse" id="collapseExample3">
+  		<div class="card card-body">
+    		<h3>Беспроводная гарнитура PULSE 3D</h3>
+    		<p>Наслаждайтесь безупречным качеством беспроводной связи благодаря гарнитуре, оптимизированной для 3D-звука на консолях PS5.</p>
+  		<button class="btn btn-primary col-3">Узнать больше</button>
+  		</div>
+	</div>
+	<div class="collapse" id="collapseExample4">
+  		<div class="card card-body">
+    		<h3>ПДУ мультимедиа</h3>
+    		<p>Удобное управление фильмами, потоковыми сервисами и другим контентом на консоли PS5 благодаря интуитивно понятойкомпоновке кнопок.</p>
+  		<button class="btn btn-primary col-3">Узнать больше</button>
+  		</div>
+	</div>
+</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
